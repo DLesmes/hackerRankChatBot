@@ -22,5 +22,4 @@ tools.append(
 
 def get_agent():
     """Returns ReActAgent"""
-    # return ReActAgent.from_tools(tools=tools, llm=llm, context=CONTEXT, verbose=True)
-    return ReActAgent.from_tools(tools, llm=llm, context=CONTEXT, verbose=True)
+    return ReActAgent.from_tools(tools=tools, llm=llm, context=CONTEXT, verbose=True)
